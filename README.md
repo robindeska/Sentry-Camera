@@ -10,7 +10,7 @@ This silent preview shows the camera detecting and following a face. It was made
 
 ## Prototype
 
-![Sentry Camera prototype build](images/sentry-camera-build.jpg)
+<img src="images/sentry-camera-build.jpg" alt="Sentry Camera prototype build" width="400">
 
 The build uses a Raspberry Pi camera, two servos, and a custom 3D-printed pan-tilt mount.
 
