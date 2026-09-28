@@ -2,6 +2,18 @@
 
 A Raspberry Pi pan-tilt camera that detects a face, moves two servos to follow it, and displays the live video in a browser. The project combines a mechanical mount, basic wiring, Python computer vision, and servo control.
 
+## Demo
+
+![Sentry Camera face-tracking demo](demo/sentry-camera-demo.gif)
+
+This silent preview shows the camera detecting and following a face. It was made from a 14-second demonstration video.
+
+## Prototype
+
+![Sentry Camera prototype build](images/sentry-camera-build.jpg)
+
+The build uses a Raspberry Pi camera, two servos, and a custom 3D-printed pan-tilt mount.
+
 ## What it does
 
 - Captures a 320 × 240 camera feed with Picamera2.
@@ -30,10 +42,6 @@ Open `http://<raspberry-pi-address>:5000` in a browser on the same local network
 ## Tracking approach
 
 For each frame, the program detects faces and chooses the largest one. It smooths that face's center position, computes its horizontal and vertical offset from the camera center, and adjusts the servos when the offset exceeds a dead zone. The gain and per-frame movement limits keep the motion gradual; the pan and tilt angles are also bounded for this mount.
-
-## Current status
-
-The face-tracking program and live browser stream are implemented. A build photo and short demonstration video can be added to this repository.
 
 ## License
 
