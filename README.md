@@ -6,8 +6,6 @@ A Raspberry Pi pan-tilt camera that detects a face, moves two servos to follow i
 
 ![Sentry Camera face-tracking demo](demo/sentry-camera-demo.gif)
 
-This silent preview shows the camera detecting and following a face. It was made from a 14-second demonstration video.
-
 ## Prototype
 
 <img src="images/sentry-camera-build.jpg" alt="Sentry Camera prototype build" width="400">
@@ -16,7 +14,7 @@ The build uses a Raspberry Pi camera, two servos, and a custom 3D-printed pan-ti
 
 ### CAD model
 
-![CAD model of the Sentry Camera pan-tilt assembly](images/sentry-camera-cad.png)
+<img src="images/sentry-camera-cad.png" alt="CAD model of the Sentry Camera pan-tilt assembly" width="320">
 
 The CAD model shows the camera and servo mount before assembly.
 
