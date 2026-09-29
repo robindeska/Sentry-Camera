@@ -14,7 +14,7 @@ The build uses a Raspberry Pi camera, two servos, and a custom 3D-printed pan-ti
 
 ### CAD model
 
-<img src="images/sentry-camera-cad.png" alt="CAD model of the Sentry Camera pan-tilt assembly" width="320">
+<img src="images/sentry-camera-cad.jpg" alt="CAD model of the Sentry Camera pan-tilt assembly" width="320">
 
 The CAD model shows the camera and servo mount before assembly.
 
